@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Crée des menus à partir du tableau food avec un élément de chaque clé
  *
@@ -9,6 +8,7 @@
  * @param mixed $jouravant le tableau des indices des éléments tirés au hasard pour le menu-1
  * @return array
  */
+
 function createRandomMenu($food, $i, $jouravant=null) {
     $return = [];
     while ($i > 0) {

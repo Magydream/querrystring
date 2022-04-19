@@ -20,6 +20,12 @@
                 <li class="navbar-item">
                     <a href="index.php?page=createMenu" class="nav-link">Créer les menus</a>
                  </li>
+                 <li class="navbar-item">
+                    <a href="index.php?page=createFood" class="nav-link">Ajouter un plat</a>
+                 </li>
+                 <li class="navbar-item">
+                    <a href="index.php?page=connexion" class="nav-link">Se connecter</a>
+                 </li>
             </ul>
         </div>
     </nav>

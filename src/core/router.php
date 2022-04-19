@@ -10,9 +10,15 @@ if (isset($_GET['page'])) {
             break;
         case "createMenu":
             $page = "createMenu.php";
-        break;
+            break;
+        case 'createFood':
+            $page = "createFood.php";
+            break;
+        case 'connexion':
+            $page = "connexion.php";
+            break;
         default:
             break;
     }
 }
-include_once(dirname(__FILE__).'/../../pages/'.$page);
+include_once(dirname(__FILE__) . '/../../pages/' . $page);
